@@ -7,7 +7,7 @@ function App() {
   const [movies, setMovies] = useState([
     { id: 1, title: "Inception", year: 2010, director: "Christopher Nolan", imdbRating: 8.8, genre: "Sci-Fi", isFavorite: false, image: "/film_images/Inception.jpg" },
     { id: 2, title: "The Matrix", year: 1999, director: "Lana Wachowski", imdbRating: 8.7, genre: "Action", isFavorite: false, image: "/film_images/TheMatrix.jpg" },
-    { id: 3, title: "Interstellar", year: 2014, director: "Christopher Nolan", imdbRating: 8.7, genre: "Sci-Fi", isFavorite: false, image: "/film_images/Interstellar.jpg" },
+    { id: 3, title: "Interstellar", year: 2014, director: "Christopher Nolan", imdbRating: 8.7, genre: "Sci-Fi", isFavorite: false, image: "/film_images/Inception.jpg" },
     { id: 4, title: "The Dark Knight", year: 2008, director: "Christopher Nolan", imdbRating: 9.0, genre: "Action", isFavorite: false, image: "/film_images/TheDarkKnight.jpg" },
     { id: 5, title: "Pulp Fiction", year: 1994, director: "Quentin Tarantino", imdbRating: 8.9, genre: "Crime", isFavorite: false, image: "/film_images/PulpFiction.jpg" },
     { id: 6, title: "Avatar", year: 2009, director: "James Cameron", imdbRating: 7.9, genre: "Action", isFavorite: false, image: "/film_images/Avatar.jpg" },
